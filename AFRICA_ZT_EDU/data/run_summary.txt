@@ -1,0 +1,36 @@
+AFRICA-ZT-EDU recorded research-artifact summary
+Evidence cutoff: 2026-08-18
+
+Synthetic policy evaluation
+- 30 independent seeds
+- 100,000 requests per seed
+- 3,000,000 total requests
+- 24 synthetic institutions
+- 12 abstract jurisdiction profiles
+- 38% intended cross-border requests
+
+AFRICA-ZT-EDU mean results across seeds
+- false permit rate: 0.009500657% [95% CI 0.008200003, 0.010801312]
+- permit precision: 99.970806% [95% CI 99.966804, 99.974808]
+- legitimate denial rate: 0.103509% [95% CI 0.094651, 0.112368]
+- blocked prohibited transfer rate: 99.750470% [95% CI 99.716154, 99.784785]
+- mean fields disclosed: 4.920135 [95% CI 4.916512, 4.923758]
+- modeled p95 policy latency: 9.120886 ms [95% CI 9.113799, 9.127972]
+
+Analytical coverage
+- proposed architecture: 34/36 = 94.4%
+- constructed perimeter-centric comparator: 15/36 = 41.7%
+
+Differential privacy at epsilon=1
+- median absolute rate error: 0.549740 percentage points
+- mean absolute rate error: 1.018431 percentage points
+- p95 absolute rate error: 3.591260 percentage points
+
+Recorded local composite benchmark
+- iterations: 2,500
+- p50: 0.120950 ms
+- p95: 0.138447 ms
+- mean: 0.124136 ms
+
+All evaluation inputs are synthetic or analytical. No real student, institution,
+country-policy performance, biometric, payment, or production-log data are used.

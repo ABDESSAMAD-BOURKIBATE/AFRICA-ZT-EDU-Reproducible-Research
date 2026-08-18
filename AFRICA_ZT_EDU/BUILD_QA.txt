@@ -1,0 +1,42 @@
+AFRICA-ZT-EDU FINAL CORRECTED BUILD AND ARTIFACT QA
+Generated: 2026-08-18
+
+Requested corrections
+- Visible IEEE journal label removed: PASS
+- Running header replaced with "Original Research Article - Digital Education, Privacy & Cybersecurity - August 2026": PASS
+- Share In black background removed: PASS
+- Share In wordmark recolored dark navy for a white scientific-paper background: PASS
+- Share In affiliation shown as Casablanca, Morocco: PASS
+- Architecture rebuilt as a high-resolution image with all labels contained in boxes: PASS
+- Actor badges and stray arrows that could intersect labels removed: PASS
+- Diagram arrows routed through inter-row whitespace rather than across component text: PASS
+
+Fresh build
+- PDF pages: 15
+- Undefined citations/references: none
+- Overfull horizontal boxes: 0
+- Overfull vertical boxes: 1 minor output-box warning; rendered pages inspected and no clipping observed
+
+Manuscript structure
+- Fully bordered table environments: 13
+- Figure environments: 7
+- Included graphics panels: 11
+- Bibliography entries: 45
+- Unique cited bibliography keys: 45
+
+Identity and affiliation checks
+- ORCID 0009-0000-6186-8071 present: PASS
+- Department of Computer Science, University of the People, Pasadena, CA, USA: PASS
+- Faculty of Legal, Economic and Social Sciences, Cadi Ayyad University, Marrakech, Morocco: PASS
+- Share In, Casablanca, Morocco: PASS
+
+PDF checks
+- Openable and unencrypted: PASS
+- Pages: 15
+- Fonts embedded: PASS
+- Type 3 fonts: none
+- Rendered 15-page contact sheet inspected: PASS
+- Visible clipping, text outside boxes, crossing lines, black logo background, black squares, or broken glyphs: none observed
+
+Scope reminder
+The simulation and analytical coverage scores are not real-world breach rates, legal determinations, or compliance certifications. The microbenchmark excludes network, database, HSM, orchestration, user-interface, and distributed-system overhead.

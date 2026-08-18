@@ -1,0 +1,6 @@
+PDF: /mnt/data/AFRICA_ZT_EDU_Overleaf_Final_Corrected/compiled_paper.pdf
+Pages: 15
+Encrypted: False
+Openable (PyMuPDF): True
+Likely scanned: False
+XFA present: False

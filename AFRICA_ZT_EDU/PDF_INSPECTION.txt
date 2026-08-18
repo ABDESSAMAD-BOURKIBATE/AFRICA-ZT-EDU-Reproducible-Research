@@ -1,0 +1,47 @@
+PDF: /mnt/data/AFRICA_ZT_EDU_Overleaf_Final_Corrected/compiled_paper.pdf
+Pages: 15
+Encrypted: False
+Page sizes (pt, rounded):
+  - 612 x 792 (15 page(s))
+Metadata:
+  /Author: Abdessamad Bourkibate
+  /CreationDate: D:20260818140553Z
+  /Creator: LaTeX with hyperref
+  /Keywords: zero trust, digital education, Africa, privacy engineering, verifiable credentials, differential privacy, federated analytics
+  /ModDate: D:20260818140553Z
+  /PTEX.Fullbanner: This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) kpathsea version 6.4.0/dev
+  /Producer: pdfTeX-1.40.26
+  /Subject: Zero trust, privacy engineering, digital education, Africa, verifiable credentials, cross-border data flows
+  /Title: AFRICA-ZT-EDU: A Policy-Centric Zero-Trust and Privacy-Preserving Architecture for Cross-Border Digital Education in Africa
+  /Trapped: /False
+Outline items: 39
+Form fields: 0
+Attachments: 0
+Annotations: 155
+
+Fonts (pdffonts, first 25 lines):
+name                                 type              encoding         emb sub uni object ID
+------------------------------------ ----------------- ---------------- --- --- --- ---------
+INZQCO+NimbusRomNo9L-Regu            Type 1            Custom           yes yes yes    211  0
+ZEGEWV+NimbusRomNo9L-ReguItal        Type 1            Custom           yes yes yes    213  0
+LREKMX+NimbusRomNo9L-MediItal        Type 1            Custom           yes yes yes    214  0
+UPDCAB+NimbusRomNo9L-Medi            Type 1            Custom           yes yes yes    215  0
+TYITNJ+CMMI9                         Type 1            Builtin          yes yes yes    216  0
+NCCUYU+CMR9                          Type 1            Builtin          yes yes yes    217  0
+RDYIKW+CMSY7                         Type 1            Builtin          yes yes yes    239  0
+BMQQDV+DejaVuSans                    CID TrueType      Identity-H       yes yes yes    241  0
+BMQQDV+DejaVuSans                    CID TrueType      Identity-H       yes yes yes    250  0
+PKYUOD+CMMI10                        Type 1            Builtin          yes yes yes    456  0
+IAJVBV+CMR10                         Type 1            Builtin          yes yes yes    457  0
+CSTNLB+CMSY10                        Type 1            Builtin          yes yes yes    458  0
+ODQAHE+CMMI7                         Type 1            Builtin          yes yes yes    459  0
+WDBSBW+CMR7                          Type 1            Builtin          yes yes yes    462  0
+LBWBDW+CMEX10                        Type 1            Builtin          yes yes yes    491  0
+BSTKNX+MSBM10                        Type 1            Builtin          yes yes yes    492  0
+ALBPXX+NimbusMonL-Regu               Type 1            Custom           yes yes yes    513  0
+BMQQDV+DejaVuSans                    CID TrueType      Identity-H       yes yes yes    515  0
+BEFRFX+CMMI8                         Type 1            Builtin          yes yes yes    527  0
+PUDXGP+CMSY8                         Type 1            Builtin          yes yes yes    528  0
+JRFSXH+CMR8                          Type 1            Builtin          yes yes yes    529  0
+BMQQDV+DejaVuSans                    CID TrueType      Identity-H       yes yes yes    543  0
+BMQQDV+DejaVuSans                    CID TrueType      Identity-H       yes yes yes    551  0

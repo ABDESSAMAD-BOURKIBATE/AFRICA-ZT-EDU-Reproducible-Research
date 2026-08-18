@@ -1,0 +1,37 @@
+threat_id,threat,objective,baseline_score,proposed_score,baseline_rationale,proposed_rationale
+T1,Phishing and account takeover,Prevent or minimize,0.5,1.0,Password-based authentication with optional MFA,Passkeys plus risk-aware subject and device authentication
+T1,Phishing and account takeover,Detect or verify,0.5,1.0,Authentication logs without continuous risk fusion,Continuous identity and device telemetry at the policy decision point
+T1,Phishing and account takeover,Contain recover or account,0.5,1.0,Manual reset and coarse session revocation,Short-lived tokens rapid revocation and decision receipts
+T2,Stolen session or bearer token,Prevent or minimize,0.5,1.0,TLS protects transport but bearer token remains reusable,Short-lived proof-bound or mutually authenticated access tokens
+T2,Stolen session or bearer token,Detect or verify,0.0,1.0,No explicit token replay analytics,Token context and anomaly checks on each resource request
+T2,Stolen session or bearer token,Contain recover or account,0.5,1.0,Application-specific revocation,Central session containment and auditable revocation
+T3,Compromised learner or staff device,Prevent or minimize,0.0,1.0,Network location is implicitly trusted,Device posture and risk thresholds are evaluated per transaction
+T3,Compromised learner or staff device,Detect or verify,0.5,1.0,Endpoint alerts are not joined to access decisions,Posture signals feed continuous access decisions
+T3,Compromised learner or staff device,Contain recover or account,0.5,1.0,Manual endpoint isolation,Automated token expiry step-up and resource-specific containment
+T4,Overprivileged administrator,Prevent or minimize,0.5,1.0,Static broad roles and standing privileges,Purpose-bound least privilege and just-in-time administration
+T4,Overprivileged administrator,Detect or verify,0.5,1.0,Administrative logs are reviewed periodically,High-risk actions produce correlated immutable decision receipts
+T4,Overprivileged administrator,Contain recover or account,0.5,1.0,Manual account suspension,Granular policy rollback key rotation and privileged-session termination
+T5,Unlawful or excessive cross-border transfer,Prevent or minimize,0.0,1.0,Cloud region and transfer purpose are not policy inputs,Jurisdiction purpose legal basis and allowed fields are mandatory policy attributes
+T5,Unlawful or excessive cross-border transfer,Detect or verify,0.5,1.0,Transfers may appear only in generic application logs,Transfer register and policy gateway verify each cross-border release
+T5,Unlawful or excessive cross-border transfer,Contain recover or account,0.5,1.0,Deletion and notification are manual,Transfer receipts retention rules and revocable downstream access support response
+T6,API scraping and mass exfiltration,Prevent or minimize,0.5,1.0,Rate limiting and coarse API keys,Field-level minimization workload identity and purpose-bound authorization
+T6,API scraping and mass exfiltration,Detect or verify,0.5,1.0,Basic gateway telemetry,Behavioral egress analytics and DLP are joined to the policy plane
+T6,API scraping and mass exfiltration,Contain recover or account,0.5,1.0,API key rotation and application shutdown,Resource-scoped token revocation egress blocking and audit reconstruction
+T7,Academic credential forgery,Prevent or minimize,0.5,1.0,PDF or database record with institution-specific verification,W3C Verifiable Credentials with issuer signatures and trust registry
+T7,Academic credential forgery,Detect or verify,0.5,1.0,Manual registrar verification,Cryptographic verification and issuer metadata validation
+T7,Academic credential forgery,Contain recover or account,0.5,1.0,Manual correction and reissue,Status-list revocation signed reissue and traceable verification events
+T8,Revocation or suspension bypass,Prevent or minimize,0.0,1.0,No interoperable credential status mechanism,Privacy-preserving credential status list and freshness policy
+T8,Revocation or suspension bypass,Detect or verify,0.5,1.0,Institution portal may expose a current record,Verifier checks signed status and bounded offline freshness
+T8,Revocation or suspension bypass,Contain recover or account,0.5,1.0,Manual notice to known recipients,Revocation propagates through status distribution and audit receipts
+T9,Learning-analytics privacy leakage or inference,Prevent or minimize,0.0,1.0,Raw event data are centralized by default,Pseudonymization aggregation and privacy-budgeted or federated analytics
+T9,Learning-analytics privacy leakage or inference,Detect or verify,0.0,0.5,No formal privacy-loss monitoring,Query and privacy-budget monitoring reduces but cannot eliminate inference risk
+T9,Learning-analytics privacy leakage or inference,Contain recover or account,0.5,0.5,Deletion and access review are possible after discovery,Revocation deletion and model governance mitigate but do not fully reverse learned information
+T10,Audit-log tampering or repudiation,Prevent or minimize,0.5,1.0,Central logs use ordinary administrator controls,Append-only signed decision receipts with segregated keys
+T10,Audit-log tampering or repudiation,Detect or verify,0.5,1.0,Periodic log review,Hash chaining integrity checks and cross-plane correlation
+T10,Audit-log tampering or repudiation,Contain recover or account,0.5,1.0,Restore from backup,Tamper evidence replicated receipts and documented incident workflow
+T11,Service disruption and intermittent connectivity,Prevent or minimize,0.5,1.0,Cloud redundancy without low-bandwidth design,Regional service zones local-first content and cached bounded credentials
+T11,Service disruption and intermittent connectivity,Detect or verify,0.5,0.5,Infrastructure monitoring,Regional health and synchronization monitoring still depend on observability coverage
+T11,Service disruption and intermittent connectivity,Contain recover or account,0.5,1.0,Failover and backups,Bounded offline verification asynchronous audit buffering and graceful degradation
+T12,Vendor lock-in or policy misconfiguration,Prevent or minimize,0.5,1.0,Vendor-specific identity APIs and manual configuration,Open standards policy-as-code schemas and portable encrypted exports
+T12,Vendor lock-in or policy misconfiguration,Detect or verify,0.5,0.5,Change review and vendor dashboards,Conformance tests and policy simulation improve but do not eliminate semantic errors
+T12,Vendor lock-in or policy misconfiguration,Contain recover or account,0.5,1.0,Migration projects and backup restoration,Versioned policy rollback interoperable credentials and documented exit procedures
