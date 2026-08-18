@@ -1,0 +1,11 @@
+name: africa-zt-edu
+channels:
+  - conda-forge
+dependencies:
+  - python=3.13
+  - pip
+  - pip:
+      - cryptography==46.0.4
+      - matplotlib==3.10.8
+      - numpy==2.3.5
+      - pandas==2.2.3
