@@ -1,0 +1,16 @@
+{
+  "timestamp_utc": "2026-08-18T20:35:00Z",
+  "seed": 20260817,
+  "python": "3.11.15 (main, Mar  3 2026, 14:11:38) [GCC 13.3.0]",
+  "platform": "Linux-5.15.0-1116-azure-x86_64-with-glibc2.39",
+  "processor": "x86_64",
+  "machine": "x86_64",
+  "cryptography": "46.0.4",
+  "numpy": "2.3.5",
+  "credential_payload_bytes": 720,
+  "notes": [
+    "Synthetic data only; no student records or personal data were processed.",
+    "Single-host microbenchmark; excludes network, database, HSM, container-orchestration, and user-interface latency.",
+    "Sequential policy matching places the permit rule last to avoid a best-case first-match measurement."
+  ]
+}

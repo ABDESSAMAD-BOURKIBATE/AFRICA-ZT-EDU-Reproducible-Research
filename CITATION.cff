@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this research artifact, please cite the article and the archived release identifier when available."
+title: "AFRICA-ZT-EDU: A Policy-Centric Zero-Trust and Privacy-Preserving Architecture for Cross-Border Digital Education in Africa"
+type: article
+authors:
+  - family-names: Bourkibate
+    given-names: Abdessamad
+    orcid: "https://orcid.org/0009-0000-6186-8071"
+date-released: 2026-08-18
+version: 1.0.0
+keywords:
+  - zero trust
+  - digital education
+  - Africa
+  - privacy engineering
+  - verifiable credentials
+  - differential privacy
+  - federated analytics
+  - cross-border data flows
+abstract: >-
+  A policy-centric zero-trust and privacy-preserving reference architecture
+  for cross-border digital education, evaluated through a transparent
+  analytical rubric, a 3,000,000-request synthetic policy experiment,
+  privacy-utility and registry-staleness sensitivity analyses, and a
+  reproducible single-host microbenchmark.
